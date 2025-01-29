@@ -41,6 +41,24 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 100vh;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.centered-form label {
+  margin-bottom: 10px;
+}
+
+.centered-form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: 10px 20px;
+}
+
+.centered-form button {
+  padding: 10px 20px;
 }
