@@ -1,4 +1,4 @@
-// import logo from './logo.png';
+import logo from './LionCoinToken.png';
 import './App.css';
 import React, { useState, useEffect } from 'react';
 
@@ -10,7 +10,6 @@ function App() {
   const [submittedData, setSubmittedData] = useState({ email: 'Email: ', firstName: 'First Name: ' });
   const [showEditButton, setShowEditButton] = useState(false);
   console.log('Email: ', email);
-  console.log('First Name: ', firstName);
 
   useEffect(() => {
     console.log('Component Mounted.');
@@ -58,6 +57,7 @@ function App() {
 
   return (
     <div className="App">
+      <img src={logo} alt="logo" style={{ width: '50px', height: '50px' }} />
       Building A Basic Form
       <form className="centered-form">
         <label>
